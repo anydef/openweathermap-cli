@@ -1,7 +1,6 @@
 import unittest
-
+from openweather_api.api import weather
 
 class TestNothing(unittest.TestCase):
     def test_nothing(self):
-        pass
-        # self.("No test")
+        print(weather('banana'))
