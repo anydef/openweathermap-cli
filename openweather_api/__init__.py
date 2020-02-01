@@ -6,5 +6,5 @@ config = configparser.ConfigParser()
 config.read(f'{home}/.openweathermaprc')
 
 
-def api_key():
+def _api_key():
     return config.get('default', 'api_key')
