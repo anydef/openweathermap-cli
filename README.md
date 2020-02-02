@@ -5,6 +5,10 @@ For local package installation  - `python setup.py install`
 
 For development linking - `python setup.py develop`
 
+Once installed programme is available under the name: `openweathermap-cli`
+
+Run `openweathermap-cli --help` to see available command options
+
 ## Configure 
 1. Register at openweathermap.org
 1. Generate api key
