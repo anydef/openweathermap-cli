@@ -1,5 +1,7 @@
 # openweathermap-cli
 
+Sample cli programme that fetcher current weather from [openweathermap](https://openweathermap.com)
+
 ## Install
 For local package installation  - `python setup.py install`
 
