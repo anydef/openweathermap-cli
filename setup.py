@@ -15,7 +15,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/anydef/openweathermap-cli",
     packages=packages,
-    install_requires=['requests == 2.22.0', 'pytest == 5.3.5', 'requests-mock == 1.7.0', 'click == 7.0'],
+    install_requires=['requests == 2.31.0', 'pytest == 5.3.5', 'requests-mock == 1.7.0', 'click == 7.0'],
     python_requires='>=3.7',
     entry_points={
         'console_scripts': ['openweathermap-cli = cli.weather:city_weather_cli'],
